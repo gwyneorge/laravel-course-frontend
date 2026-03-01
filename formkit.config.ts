@@ -1,5 +1,5 @@
-import { DefaultConfigOptions } from "@formkit/vue";
+import { defineFormKitConfig } from "@formkit/vue";
 
-export default {
+export default defineFormKitConfig({
   theme: "genesis",
-} as DefaultConfigOptions;
+});
